@@ -1,0 +1,6 @@
+# ForensicAI - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://forensic-ai.example.com/sitemap.xml

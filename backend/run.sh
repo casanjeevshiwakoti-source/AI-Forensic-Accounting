@@ -1,0 +1,4 @@
+#!/bin/bash
+# Run the AI backend (from project root: ./backend/run.sh)
+cd "$(dirname "$0")"
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
